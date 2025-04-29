@@ -185,4 +185,3 @@ bot-env/Scripts/
 
 #config files
 bot-env/pyvenv.cfg
-bot-env/bot_token.py
