@@ -172,3 +172,17 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+
+
+
+#python discord stuff
+bot-env/Include/
+bot-env/Lib/
+bot-env/Scripts/
+
+
+#config files
+bot-env/pyvenv.cfg
+bot-env/BOT_TOKEN.py
