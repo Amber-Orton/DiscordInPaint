@@ -1,5 +1,5 @@
 import discord
-import bot_token
+import config
 import storage
 
 def create_bot():

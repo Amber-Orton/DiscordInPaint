@@ -1,5 +1,5 @@
 import bot
-import bot_token
+import config
 import storage
 
 

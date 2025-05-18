@@ -1,5 +1,6 @@
 import sqlite3
 import os
+import config
 
 class Storage:
     def __init__(self, db_name):
