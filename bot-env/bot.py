@@ -5,8 +5,9 @@ import storage
 def create_bot():
     # retreive bot token from the bot token file
     global BOT_TOKEN
-    bot_token.init()
-    BOT_TOKEN = bot_token.BOT_TOKEN
+    config.init()
+    BOT_TOKEN = config.BOT_TOKEN
+    DB_NAME = config.DB_NAME
 
     # setup discord bot intents
     intents = discord.Intents.default()
