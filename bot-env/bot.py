@@ -3,17 +3,19 @@ import config
 import storage
 
 def create_bot():
-    # retreive bot token from the bot token file
+    # retreive information from the config file
     global BOT_TOKEN
+    global DB_LOCATION
     config.init()
     BOT_TOKEN = config.BOT_TOKEN
-    DB_NAME = config.DB_NAME
+    DB_LOCATION = config.DB_LOCATION
 
     # setup discord bot intents
     intents = discord.Intents.default()
     intents.message_content = True
     intents.messages = True
 
+    # create the bot client
     client = InPaintClient(intents=intents)
     client.run(BOT_TOKEN)
     return client

@@ -7,8 +7,8 @@ def init():
     # Replace with your bot token
     BOT_TOKEN = 'add your bot token here'
 
-    
-    global DB_NAME
+
+    global DB_LOCATION
     # Replace with your database location as a file path 
-    # or leave on default to create in the bot-env folder
-    DB_NAME = 'deafult'  
+    # or leave on default to create in the bot-env/storage folder
+    DB_LOCATION = 'deafult'  

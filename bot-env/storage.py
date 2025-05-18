@@ -6,7 +6,7 @@ class Storage:
     def __init__(self, db_name):
         if db_name == 'default':
             # Create a default database in the same directory as this script
-            db_name = os.path.join(os.path.dirname(__file__), 'storage.db')
+            db_name = os.path.join(os.path.dirname(__file__), 'storage/storage.db')
         self.db_name = db_name
         self.create_tables()
 
